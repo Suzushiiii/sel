@@ -4,15 +4,15 @@ Simple script to open a page with selenium.
 
 Also .spec ready to compile to onefile .exe
 
-pyinstaller ./crackwatch_ez.spec --onefile
+<i>pyinstaller ./crackwatch_ez.spec --onefile</i>
 
 Or without .spec
 
-pyinstaller ./crackwatch_ez.py --onefile --noconsole --add-binary "./chromeDriver/chromedriver.exe;./chromeDriver"
+<i>pyinstaller ./crackwatch_ez.py --onefile --noconsole --add-binary "./chromeDriver/chromedriver.exe;./chromeDriver"</i>
 
-with pyinstaller
 
-One thing needed is "chromedriver.exe" like this:
+
+You need "chromedriver.exe" like this:
 
 dist/
 
