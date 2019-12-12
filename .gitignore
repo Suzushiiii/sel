@@ -1,0 +1,13 @@
+# Files
+
+
+# Folders
+
+__pycache__
+.vscode
+build
+chromeDriver
+dist
+crackwatch_ez_77.spec
+crackwatch_ez_78.spec
+test.py
